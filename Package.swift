@@ -22,8 +22,5 @@ let package = Package(
             name: "DTPhotoViewerController",
             dependencies: [],
             path: "DTPhotoViewerController/Classes"),
-        .testTarget(
-            name: "DTPhotoViewerControllerTests",
-            dependencies: ["DTPhotoViewerController"]),
     ]
 )
